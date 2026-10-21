@@ -1,0 +1,1 @@
+import './globals.css';import type {Metadata} from 'next';export const metadata:Metadata={title:{default:'도어락 출장 서비스 | 지역별 안내',template:'%s | 도어락 출장 서비스'},description:'서울·경기·인천 도어락 설치, 수리, 교체 및 비밀번호 분실 관련 서비스 안내'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="ko"><body>{children}</body></html>}

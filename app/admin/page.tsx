@@ -1,0 +1,1 @@
+import Admin from './ui';export const metadata={title:'지역 관리자',robots:{index:false,follow:false}};export default function Page(){return <Admin/>}
